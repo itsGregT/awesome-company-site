@@ -5,54 +5,70 @@
 	</head>
 	<body>
 		<header>
-			<h1>Awesome Company Name</h1>
+			<h1>Awesome Company Logo</h1>
 			<nav>
 				<ul>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">Portfolio</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="#services-page">Services</a></li>
+					<li><a href="#portfolio-page">Portfolio</a></li>
 				</ul>
 			</nav>
 		</header>
-		<div id="home">
-			<div class="wrapper-center">
-				<h1>Awesome Company.</h1>
-				<h3>Awesome Websites. Awesome Apps. Awesome Team.</h3>
-			</div>
-		</div>
-		<div id="services">
-			<h1>Awesome Services</h1>
-			<div class="service-wrapper">
-				<div class="service">
-					<h2>Websites</h2>
-				</div>
-				<div class="service">
-					<h2>Apps</h2>
-				</div>
-				<div class="service">
-					<h2>RESS 3.0</h2>
+		<scroll-container>
+			<div id="home">
+				<div class="wrapper-center">
+					<h1>Dude, Awesome</h1>
+					<h3>Awesome Websites. Awesome Apps. Awesome Team.</h3>
 				</div>
 			</div>
-		</div>
-		<div id="portfolio">
-			<h1>Awesome Portfolio</h1>
-			<div class="project-wrapper">
-				<div class="project">
-					<h2>1</h2>
-				</div>
-				<div class="project">
-					<h2>2</h2>
-				</div>
-				<div class="project">
-					<h2>3</h2>
-				</div>
-				<div class="project">
-					<h2>4</h2>
+			<scroll-page id="#services-page">
+			<div id="services" class="section-wrapper">
+				<h1 class="section-title">Awesome Services</h1>
+				<div class="service-wrapper">
+					<div class="service">
+						<h2>Website Development & Design</h2>
+						<p>Custom websites to fit all your needs.</p>
+					</div>
+					<div class="service middle-service">
+						<h2>Apps</h2>
+						<p>Kickass mobile apps to engage with your clients.</p>
+					</div>
+					<div class="service">
+						<h2>RESS 3.0</h2>
+						<p>Only good developers can do this shit.</p>
+					</div>
+					<div class="service">
+						<h2>Branding</h2>
+						<p>We'll make you look as good as us.</p>
+					</div>
 				</div>
 			</div>
-		</div>
-		<footer>
-			<p>&copy; 2018 Awesome Company, Inc</p>
-		</footer>
+			</scroll-page>
+			<scroll-page id="#portfolio-page">
+			<div id="portfolio" class="section-wrapper">
+				<h1 class="section-title">Awesome Portfolio</h1>
+				<div class="project-wrapper">
+					<div class="project">
+						<h2>1</h2>
+					</div>
+					<div class="project">
+						<h2>2</h2>
+					</div>
+					<div class="project">
+						<h2>3</h2>
+					</div>
+					<div class="project">
+						<h2>4</h2>
+					</div>
+				</div>
+			</div>
+			</scroll-page>
+			<footer>
+				<p>&copy; 2018 Awesome Company, Inc</p>
+			</footer>
+		</scroll-container>
+		<!-- Check out these sites
+		https://fueled.com
+
+		-->
 	</body>
 </html>
